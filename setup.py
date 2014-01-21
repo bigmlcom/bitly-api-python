@@ -1,11 +1,11 @@
 from setuptools import setup
 
-version = '0.1.c'
+version = '0.3'
 
 setup(name='bitly_api',
       version=version,
       description="An API for bit.ly",
-      long_description=open("./README.txt", "r").read(),
+      long_description=open("./README.md", "r").read(),
       classifiers=[
           "Development Status :: 5 - Production/Stable",
           "Environment :: Console",
@@ -15,13 +15,13 @@ setup(name='bitly_api',
           "Programming Language :: Python",
           "Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries",
           "Topic :: Utilities",
-          "License :: OSI Approved :: MIT License",
+          "License :: OSI Approved :: Apache Software License",
           ],
-      keywords='bit.ly bitly j.mp jmp',
+      keywords='bitly bit.ly',
       author='Jehiah Czebotar',
       author_email='jehiah@gmail.com',
-      url='http://github.com/bitly/bitly-api-python',
-      license='MIT License',
+      url='https://github.com/bitly/bitly-api-python',
+      license='Apache Software License',
       packages=['bitly_api'],
       include_package_data=True,
       zip_safe=True,
